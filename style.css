@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+}
+body{
+  font-family: 'roboto', sans-serif;
+  font-size: 12.8rem;
+  color: #323238
+}
+.time{
+  display: flex;
+}
+main{
+  display: flex;
+  gap: 19.2rem;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.block2{
+  display: grid;
+  grid-template-areas: 
+  'A B'
+  'C D';
+  gap: 3.2rem;
+  
+}
+
+#controls{
+  margin-top: -6rem;
+  text-align: center;
+}
+button:hover{
+  transform: scale(1.1);
+
+}
+
+
